@@ -4,7 +4,7 @@ Built using HTML, CSS, and JavaScript, it fetches data from the Weather API
  to display current temperature, wind speed, and weather conditions.
 
 🚀 Live Demo:
-👉 https://yourusername.github.io/weathernow/
+👉 https://nikshithamacha.github.io/Weather-Now/
 
 🧠 Features:
 🌍 Search weather by city name
