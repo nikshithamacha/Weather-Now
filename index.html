@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeatherNow</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="parent">
+    <div id="main">
+      <h1>🌤️ WeatherNow</h1>
+      <p class="subtitle">Get instant weather updates for any city</p>
+      <div class="input-group">
+        <input type="text" id="inp" placeholder="Enter city name..." />
+        <button onclick="checkWeather()">Check</button>
+      </div>
+      <div id="result" class="card hidden">
+        <h2 id="city"></h2>
+        <img src="" alt="Weather Icon" id="image" />
+        <h2 id="temp"></h2>
+        <h2 id="wind"></h2>
+        <h2 id="condition"></h2>
+        <h2 id="humidity"></h2>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
